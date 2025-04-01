@@ -414,10 +414,10 @@ nav ul li a:hover::after {
 
 .contact-item i {
     font-size: 1.2rem;
-    color: var(--primary-color);
+    color: var(--white);
     width: 40px;
     height: 40px;
-    background-color: rgba(52, 152, 219, 0.1);
+    background-color: rgba(15, 15, 206, 0.801);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -427,6 +427,8 @@ nav ul li a:hover::after {
 .social-links {
     display: flex;
     gap: 20px;
+    color: rgb(156, 156, 245);
+    background-color:white;
 }
 
 .social-links a {
@@ -435,13 +437,13 @@ nav ul li a:hover::after {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: rgba(52, 152, 219, 0.1);
+    background-color: rgba(10, 45, 245, 0.1);
     border-radius: 50%;
     transition: var(--transition);
 }
 
 .social-links a:hover {
-    background-color: var(--primary-color);
+    background-color: rgba(171, 171, 212, 0.842);
     color: var(--white);
 }
 
