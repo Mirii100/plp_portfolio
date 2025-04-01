@@ -446,7 +446,12 @@ nav ul li a:hover::after {
     background-color: rgba(171, 171, 212, 0.842);
     color: var(--white);
 }
-
+.fo{
+    height: 860px;
+    width: 700px;
+    padding: 20px;
+    margin-right: 20px;
+}
 .contact-form {
     display: flex;
     flex-direction: column;
