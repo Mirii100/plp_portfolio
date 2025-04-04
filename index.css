@@ -447,10 +447,12 @@ nav ul li a:hover::after {
     color: var(--white);
 }
 .fo{
-    height: 860px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     padding: 20px;
     margin-right: 20px;
+    border-radius: 100%;   
+  object-fit: cover; 
 }
 .contact-form {
     display: flex;
