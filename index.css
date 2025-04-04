@@ -25,8 +25,26 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--blue);
-}
 
+
+  
+}
+    /* Small screens */
+    @media (max-width: 600px) {
+        .nav {
+          flex-direction: column;
+        }
+        .hero {
+          font-size: 1.2rem;
+        }
+      }
+      
+      /* Large screens */
+      @media (min-width: 1024px) {
+        .hero {
+          font-size: 2rem;
+        }
+      }
 a {
     text-decoration: none;
     
